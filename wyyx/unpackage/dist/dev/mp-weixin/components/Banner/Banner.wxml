@@ -1,0 +1,1 @@
+<view class="MyBanner data-v-29f582c4"><swiper class="banner data-v-29f582c4" indicator-dots="{{true}}" interval="3000" autoplay="{{true}}" circular="{{true}}"><block wx:for="{{banner}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item class="data-v-29f582c4"><image class="img data-v-29f582c4" src="{{item}}"></image></swiper-item></block></swiper></view>

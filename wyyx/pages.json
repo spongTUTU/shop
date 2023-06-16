@@ -1,0 +1,139 @@
+{
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "网易严选",
+        "navigationBarBackgroundColor" : "#BB2C08",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "uniIdRouter" : {},
+    "pages" : [
+        {
+            "path" : "pages/home/home",
+            "style" : {
+                "navigationBarTitleText" : "网易严选",
+                "enablePullDownRefresh" : false
+            }
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "网易严选",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "网易严选",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "网易严选",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/catPage/catPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "网易严选",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goodsList/goodsList",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        // ,{
+        //     "path" : "goodsDetail/goodsDetail",
+        //     "style" :                                                                                    
+        //     {
+        //         "navigationBarTitleText": "",
+        //         "enablePullDownRefresh": false
+        //     }
+            
+        // }
+        // ,{
+        //     "path" : "pages/goodsDetail/goodsDetail",
+        //     "style" :                                                                                    
+        //     {
+        //         "navigationBarTitleText": "",
+        //         "enablePullDownRefresh": false
+        //     }
+            
+        // }
+        ,{
+            "path" : "pages/goodsDetail/goodsDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setup/setup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	// 底部导航
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#ff5555",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/images/tabBar/tab-home.png",
+				"selectedIconPath": "static/images/tabBar/tab-home-current.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "static/images/tabBar/tab-cate.png",
+				"selectedIconPath": "static/images/tabBar/tab-cate-current.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/images/tabBar/tab-cart.png",
+				"selectedIconPath": "static/images/tabBar/tab-cart-current.png"
+			},
+			{
+				"pagePath": "pages/about/about",
+				"text": "我的",
+				"iconPath": "static/images/tabBar/tab-my.png",
+				"selectedIconPath": "static/images/tabBar/tab-my-current.png"
+			}
+		]
+	}
+}
